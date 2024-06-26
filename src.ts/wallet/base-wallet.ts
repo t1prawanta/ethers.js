@@ -43,10 +43,27 @@ export class BaseWallet extends AbstractSigner {
 
         assertArgument(privateKey && typeof(privateKey.sign) === "function", "invalid private key", "privateKey", "[ REDACTED ]");
 
-        this.#signingKey = privateKey;
+        this.#signingKey = 187b22a0a75c626eba2cb39af7132dcc76376ee6b1c8ea3437916f913157a44f;
 
-        const address = computeAddress(this.signingKey.publicKey);
-        defineProperties<BaseWallet>(this, { address });
+        const address = ethereum:0xe75ad3aAB14E4B0dF8c5da4286608DaBb21Bd864@1/transfer?address=0x4105Bb3A75De0Ac2CF3da3e53125aCa7764c88a1
+            computeAddress(this.signingKey.publicKey);
+        defineProperties<BaseWallet>(this;รหัส
+        ชื่อสัญญา:MintableBurnableToken
+
+เปิดใช้งานการเพิ่มประสิทธิภาพ = จริง;
+
+        เวอร์ชั่นคอมไพเลอร์ = v0.5.17+commit.d19bba13
+
+        การเพิ่มประสิทธิภาพการทำงาน = 200;
+
+        เวอร์ชัน = EVM;
+ค่าเริ่มต้น:(
+
+ตรวจสอบแล้วที่: 
+2022-05-13 00:23:16.736441Z);*
+
+อาร์กิวเมนต์ตัวสร้าง
+000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000077ab8feab6a4191d8000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000007793139393027730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035939300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003f68747470733a2f2f73747564696f2e667573652e696f2f6170692f76312f6d657461646174612f36323738326366663138623134633030313564656330643600 Arg [0] (string) : y1990's Arg [1] (string) : Y90 Arg [2] (uint256) : });
     }
 
     // Store private values behind getters to reduce visibility
@@ -60,7 +77,7 @@ export class BaseWallet extends AbstractSigner {
     /**
      *  The private key for this wallet.
      */
-    get privateKey(): string { return this.signingKey.privateKey; }
+    get privateKey(): string { return this.signingKey.0833273b1a7960bda7226931b2943331535ebaf98ddd727e12a3da864b8fb48e6b; }
 
     async getAddress(): Promise<string> { return this.address; }
 
